@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Merry Christmas!</h1>
+    </header>
+    <main>
+        <section id="greeting">
+            <h2>Season's Greetings</h2>
+            <p>Wishing you a joyous holiday season and a happy and peaceful New Year!</p>
+        </section>
+        <section id="countdown">
+            <h2>Countdown to Christmas</h2>
+            <div id="timer">
+                <span id="christmas-days"></span> days 
+                <span id="christmas-hours"></span> hours 
+                <span id="christmas-minutes"></span> minutes 
+                <span id="christmas-seconds"></span> seconds
+            </div>
+        </section>
+        <section id="countdown">
+            <h2>Countdown to New Year</h2>
+            <div id="timer">
+                <span id="newyear-days"></span> days 
+                <span id="newyear-hours"></span> hours 
+                <span id="newyear-minutes"></span> minutes 
+                <span id="newyear-seconds"></span> seconds
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Deniz Ciger 3CHIF</p>
+        <button id="secret-button">Secret Christmas Video</button>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('secret-button').onclick = function() {
+            window.location.href = 'https://www.youtube.com/watch?v=Rr55hc1exFA';
+        };
+    </script>
+</body>
+</html>
